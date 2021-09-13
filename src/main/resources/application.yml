@@ -1,0 +1,5 @@
+server:
+  port: 9090
+security:  oauth2:    client:      clientId: 6863a43ec42d06640648      clientSecret: 05acf5abc7df31590a9b80e809547c78a5999815       accessTokenUri: https://github.com/login/oauth/access_token
+      userAuthorizationUri: https://github.com/login/oauth/authorize
+    resource:      user-info-uri: https://api.github.com/user
